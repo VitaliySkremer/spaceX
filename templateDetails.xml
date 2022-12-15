@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.5" type="template" client="site">
+	<name>mask</name>
+	<creationDate>2022</creationDate>
+	<author>Skremer</author>
+	<authorEmail>vitalik.semkin@mail.mail</authorEmail>
+	<authorUrl>http://</authorUrl>
+	<copyright>Copyright (C) 2016 Open Source. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>0.2</version>
+	<description>TPL_TEST_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+              <field
+					name="logoFile"
+					type="media"
+					default=""
+                    label="Логотип"
+				/>
+              <field 
+                     name="mymenu" 
+                     type="menu" 
+                     default="mainmenu" 
+                     label="Выберите меню" 
+                     description="Выберите меню" 
+                />
+				<field
+					name="siteTitleMain"
+					type="text"
+					default="Главная"
+                    label="Основной заголовок"
+				/>
+				<field
+					name="siteTitleDesk"
+					type="text"
+					default="заголовок"
+                    label="второстепенный заголовок"
+				/>
+              <field
+					name="mainBtnText"
+					type="text"
+					default="кнопка"
+                    label="Текст главной кнопки"
+				/>
+              
+              <field
+					name="specialTopOnMarket"
+					type="text"
+					default="1"
+                    label="Призовое место среди других"
+				/>
+                <field
+                      name="specialSecurity"
+                      type="text"
+                      default="50%"
+                      label="Гарантия безопасности"
+                  />
+                <field
+                        name="specialPresent"
+                        type="text"
+                        default="2000"
+                        label="Подарок за год"
+                    />
+                <field
+                       name="specialTrevels"
+                       type="text"
+                       default="365"
+                       label="Дней путешествия"
+                     />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

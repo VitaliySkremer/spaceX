@@ -1,0 +1,9 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7" width="7" height="7">
+	<title>Фигура 2 копия</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Фигура 2" class="shp0" d="M0 0L1 0L1 7L0 7L0 0Z" />
+	<path id="Фигура 2 копия" class="shp0" d="M7 6L7 7L0 7L0 6L7 6Z" />
+</svg>
